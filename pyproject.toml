@@ -1,0 +1,16 @@
+[project]
+name = "graphrag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "json-repair>=0.47.8",
+    "langchain-experimental>=0.3.4",
+    "langchain-openai>=0.3.28",
+    "llama-index>=0.12.50",
+    "neo4j>=5.28.1",
+    "openai>=1.97.0",
+    "pymongo>=4.13.2",
+    "pymupdf4llm>=0.0.27",
+]
